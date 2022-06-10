@@ -1,0 +1,38 @@
+{
+  "name": "media-mantine",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A few media (image/video) widgets that can crop/scale client-side, and upload to a server",
+  "source": "src/index.jsx",
+  "scripts": {
+    "start": "cd demo && npm start",
+    "build:demo": "cd demo && npm run build",
+    "postininstall": "cd demo && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konsumer/media-mantine.git"
+  },
+  "keywords": [
+    "mantine",
+    "video",
+    "image",
+    "upload",
+    "scale",
+    "crop",
+    "react"
+  ],
+  "author": "David Konsumer <konsumer@jetboystudio.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/konsumer/media-mantine/issues"
+  },
+  "homepage": "https://github.com/konsumer/media-mantine#readme",
+  "dependencies": {
+    "@mantine/core": "^4.2.8",
+    "@mantine/dropzone": "^4.2.8",
+    "@mantine/hooks": "^4.2.8",
+    "react": "^18.1.0",
+    "tabler-icons-react": "^1.48.1"
+  }
+}
