@@ -11,5 +11,6 @@ export default defineConfig({
     alias: {
       'media-mantine': path.resolve(new URL('.', import.meta.url).pathname, './src/index.jsx')
     }
-  }
+  },
+  base: '.'
 })
