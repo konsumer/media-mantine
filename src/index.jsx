@@ -1,10 +1,6 @@
 import { InputWrapper, Group, Text, useMantineTheme } from '@mantine/core'
 import { Upload, Photo, DeviceTv, X } from 'tabler-icons-react'
 import { Dropzone, IMAGE_MIME_TYPE } from '@mantine/dropzone'
-import processImage from './process_image.js'
-import processVideo from './process_video.js'
-
-export { processImage, processVideo }
 
 const VIDEO_MIME_TYPE = ['video/mp4', 'video/x-ms-wmv', 'video/x-msvideo', 'video/quicktime', 'video/3gpp']
 
