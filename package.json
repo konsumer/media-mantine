@@ -7,7 +7,7 @@
   "scripts": {
     "start": "cd demo && npm start",
     "build:demo": "cd demo && npm run build",
-    "postininstall": "cd demo && npm i"
+    "postci": "cd demo && npm ci"
   },
   "repository": {
     "type": "git",
